@@ -450,14 +450,14 @@ body {
 }
 
 .box-of-number .text-number {
-    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 212px;
-    right: 165px;
+    height: 100%;
     font-size: 15px;
+    color: white;
 }
+
 
 .contain-content-last-box-email-phone {
     color: #ffffff;
@@ -483,12 +483,13 @@ body {
 }
 
 .box-of-email .text-email {
-    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 70px;
-    right: 170px;
+    height: 100%;
+    font-family: 'Comic neue', cursive;
+    font-weight: 700;
+    color: white;
 }
 
 .box-of-email:hover {
